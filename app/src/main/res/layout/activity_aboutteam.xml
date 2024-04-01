@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:padding="20dp">
+
+    <EditText
+        android:id="@+id/about_text"
+        android:layout_width="365dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/white_border"
+        android:drawableStart="@drawable/menu_icon"
+        android:drawablePadding="8dp"
+        android:text="About Us"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:padding="8dp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/about_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="At [Travelya], we're passionate about making your travel experiences extraordinary. Whether you're embarking on a solo adventure, planning a family vacation, or seeking the perfect getaway with friends, we're here to turn your dreams into unforgettable memories."
+        android:textSize="15sp" />
+
+  </RelativeLayout>
+
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="145dp"
+      android:layout_marginTop="600dp"
+      android:layout_marginBottom="10dp"
+      android:gravity="center">
+
+
+    <FrameLayout
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp">
+
+      <androidx.cardview.widget.CardView
+          android:id="@+id/facebook"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/facebook" />
+
+      </androidx.cardview.widget.CardView>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp">
+
+      <androidx.cardview.widget.CardView
+          android:id="@+id/youtube"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/youtube" />
+
+      </androidx.cardview.widget.CardView>
+    </FrameLayout>
+  </LinearLayout>
+
+    <TextView
+        android:id="@+id/about_copyrights"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="680dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="All Copyrights Reserved By Laviru Herath - @2024 Designed &amp; Developed by Laviru_Herath"
+        android:textColor="@color/black"
+        android:textSize="13sp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Travelya</string>
+
+    <string name="register_now">Register Now</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="password_conditions">Password should include:
+        \n\t\t\t* 8-16 characters
+        \n\t\t\t* At least one special character
+        \n\t\t\t* At least one numeric character</string>
+    <string name="log_in">Log In</string>
+
+    <string name="register_now_hint">Doesn\'t Have an Account? Register Now</string>
+
+    <string name="signup_login_hint">Already have an account? Sign In</string>
+    <string name="login_signup_hint">Don\'t have an account? Sign Up</string>
+
+    <string name="welcome_to_travelya">Welcome to Travelya</string>
+    <string name="sign_up_now_to_access_new_account">Sign up now to access new account</string>
+    <string name="get_started">Get Started</string>
+    <string name="already_have_an_account_log_in">Already have an account? Log in</string>
+    <string name="hello">Hello</string>
+    <string name="let_s_find_your_destinaions">Let\'s find your destinaions</string>
+    <string name="skip">Skip</string>
+
+
+</resources>

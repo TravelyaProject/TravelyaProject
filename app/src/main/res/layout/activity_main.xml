@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/intro6"
+        android:scaleType="centerCrop" />
+
+    <View
+        android:id="@+id/gradientOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/main_backgraound" />
+
+    <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="540dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:text="@string/welcome_to_travelya"
+        android:textColor="#FFFF"
+        android:fontFamily="@font/roboto"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/sign_up_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="580dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:textColor="#bdadad"
+        android:text="@string/sign_up_now_to_access_new_account"
+        android:onClick="newAccount"
+        android:fontFamily="@font/roboto"
+        android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/get_started"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="640dp"
+            android:layout_marginEnd="90dp"
+            android:layout_marginBottom="50dp"
+            android:gravity="center"
+            android:text="@string/get_started"
+            android:onClick="openHome"
+            android:background="@drawable/regtangle_button"
+            android:textColor="#121212"
+            android:fontFamily="@font/roboto"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+
+    <TextView
+        android:id="@+id/account_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="700dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:textColor="#bdadad"
+        android:text="@string/already_have_an_account_log_in"
+        android:onClick="logAccount"
+        android:fontFamily="@font/roboto"
+        android:textSize="16sp" />
+
+</RelativeLayout>
